@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 30px auto;
+}
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 0.4px solid #333;
+    font-size: 17px;
+
+}
+
+.container input:nth-child(5),.btnEdit{
+    width: 30%;
+    background-color: rgb(110, 110, 211);
+    border: 0;
+}
+.container .box{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.container .box .item{
+    width: 31%;
+    background-color: #ddd;
+    margin: 1%;
+    padding: 20px 10px;
+    position: relative;
+
+}
+
+.container .box .item div:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(109, 109, 224);
+    padding: 10px;
+}
+
+.container .box .item div:nth-child(4){
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(121, 112, 252);
+  padding: 3px; ;
+  border-radius: 3px;
+  box-shadow: #333 ;
+  
+}
+
+
+.container .box .item .btn-del{
+    background-color: rgb(238, 77, 77);
+    border: 0;
+    padding: 3px; ;
+    border-radius: 3px;
+    box-shadow: #333 ;
+}
+
+.btnEdit{
+    
+    padding: 15px;
+    display: none;
+}
+.container .box .item .btn-up {
+    background-color: rgb(106, 197, 240);
+    border: 0;
+    padding: 1px; ;
+    padding: 3px; ;
+    border-radius: 3px;
+    box-shadow: #333 ;
+}
+
